@@ -1,0 +1,9 @@
+[submodule "blockchain/docker-enumivo-producer"]
+	path = blockchain/docker-enumivo-producer
+	url = https://github.com/fouvy/docker-enumivo-producer.git
+[submodule "blockchain/docker-fibos-producer"]
+	path = blockchain/docker-fibos-producer
+	url = https://github.com/fouvy/docker-fibos-producer.git
+[submodule "blockchain/docker-fibos-eosio-producer"]
+	path = blockchain/docker-fibos-eosio-producer
+	url = https://github.com/fouvy/docker-fibos-eosio-producer.git
