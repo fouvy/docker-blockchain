@@ -1,6 +1,7 @@
 #!/bin/bash
 root=$(pwd -P)
-git pull --recurse-submodules
+git pull
+git submodule foreach git pull origin master
 for d in blockchain/* ; do
 	cd $root'/'$d
 	echo "$(pwd -P)"
