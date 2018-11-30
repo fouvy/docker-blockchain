@@ -29,7 +29,7 @@ Stop nodes:
 ```
 ./stop.sh
 ```
-Upgrade nodes:
+Upgrade nodes use follow command, if you have already installed docker and docker compose, and use oneKeyToTheMoon.sh might cost some time, your can also use follow command to install. After all, upgrade command also support install command:
 ```
 ./upgrade.sh
 ```
